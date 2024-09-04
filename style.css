@@ -1,0 +1,46 @@
+.container {
+    display: grid;
+    grid-template-columns: 110px 200px 200px;
+    grid-template-rows: 70px 330px 70px 80px;
+    gap: 10px;
+}
+.first {
+    height: 70px;
+    width: 110px;
+    border: dashed ;
+}
+.second {
+    height: 70px;
+    width: 400px;
+    border: dashed;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.third {
+    height: 325px;
+    width: 330px;
+    border: dashed;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+.fourth {
+    height: 325px;
+    width: 180px;
+    border: dashed;
+    grid-column-start: 3;
+    grid-column-end:4 ;
+    margin-left: 10px;
+}
+.fifth {
+    height: 70px;
+    width: 520px;
+    border: dashed;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.sixth {
+    height: 80px;
+    width: 520px;
+    border: dashed;
+}
